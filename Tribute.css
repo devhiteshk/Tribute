@@ -1,0 +1,92 @@
+/*declaring css variables*/
+
+ :root {
+    --direction-of-flex: row;
+}
+
+#main-text {
+    margin: 0 120px 0;
+    text-align: justify;
+}
+
+body {
+    margin: 0px;
+    background-color: #FCF2D8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 58px;
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    margin: 0px;
+    background-color: #1b1b32;
+    color: rgb(226, 210, 117);
+}
+
+.no-top-margin {
+    margin-top: 0px;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+#page-subtitle {
+    padding-bottom: 10px;
+}
+
+figure {
+    /* min-height: 300px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#img-caption {
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+img {
+    width: 400px;
+    border-radius: 5%;
+    display: block;
+    height: auto;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+#tribute-info {
+    padding: 25px;
+    background-color: #1b1b32;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+#img-caption {
+    color: #373535;
+}
+
+@media only screen and (max-width: 720px) {
+    img {
+        display: block;
+        height: auto;
+        width: 60%;
+        margin: 0 auto;
+    }
+    #main-text {
+        margin: 0 20px 0;
+        text-align: justify;
+    }
+}
