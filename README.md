@@ -1,2 +1,2 @@
 # Tribute
-(visit){www.derive-science.com/Tribute}
+(visit){www.devhiteshk.github.io/Tribute}
