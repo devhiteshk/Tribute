@@ -1,2 +1,2 @@
 # Tribute
-(visit)[https://devhiteshk.github.io/Tribute/]
+[Visit here](https://devhiteshk.github.io/Tribute/)
